@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^3.2.3",
+    "jquery": "^3.2.1",
+    "laravel-mix": "0.*",
+    "lodash": "^4.17.4",
+    "vue": "^2.1.10"
+  },
+  "dependencies": {
+    "bootstrap-datepicker": "^1.7.1",
+    "bootstrap-datetimepicker": "0.0.7",
+    "bootstrap-select": "^1.12.4",
+    "bootstrap-switch": "^3.3.4",
+    "bootstrap-toggle": "^2.2.2",
+    "browser-cookies": "^1.1.0",
+    "chart.js": "^2.6.0",
+    "cookie": "^0.3.1",
+    "elixir": "^0.1.2",
+    "express": "^4.15.4",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "jquery-ui-npm": "^1.12.0",
+    "moment": "^2.19.4",
+    "nodejs": "0.0.0",
+    "randomatic": "^1.1.7",
+    "redis": "^2.8.0",
+    "redis-server": "^1.1.0",
+    "requirejs": "^2.3.4",
+    "searchable-input": "0.0.4",
+    "select2": "^4.0.3",
+    "socket.io": "^2.0.3",
+    "sorttable": "^1.0.2",
+    "sweetalert2": "^6.6.9"
+  }
+}
