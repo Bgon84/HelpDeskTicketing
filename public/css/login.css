@@ -1,0 +1,16 @@
+
+body {
+    background: url('/img/illustration.jpg') no-repeat center fixed;
+    background-size: 100% auto;           
+}
+
+.form-login {
+    top: calc(50% - 201px);
+    left: calc(50% - 200px);
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px #000;
+    position: absolute;
+}

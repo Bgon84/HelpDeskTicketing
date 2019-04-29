@@ -1,0 +1,50 @@
+.btn-group-border {
+	background-color: #ddd;
+    border: 1px solid #ccd0d2;
+}
+
+thead {
+	cursor: initial !important;
+}
+
+.ck-button-margin-left {
+	margin-left: 5px;
+}
+
+.ck-button {
+    background-color:#EFEFEF; 
+    color: #000;
+    border-radius:0px;
+    border:1px solid #000;
+    overflow:auto;
+    float:left;
+}
+
+.ck-button label {
+	margin-bottom: 0px;
+}
+
+.ck-button:hover {
+    background: #D0D0D0;
+}
+
+.ck-button label {
+    float:left;
+}
+
+.ck-button label span {
+    text-align:center;
+    padding: 6px 12px;
+    display:block;
+}
+
+.ck-button label input {
+    position:absolute;
+    display: none;
+    top:-20px;
+}
+
+.ck-button input:checked + span {
+    background-color: green;
+    color:#fff;
+}

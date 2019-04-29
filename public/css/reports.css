@@ -1,0 +1,17 @@
+.reportcriteriapanel {
+
+	width: 635px;
+	margin: auto;
+}
+
+.reportrange {
+	margin-bottom: 15px;
+}
+
+.start, .end {
+	border: none;
+}
+
+.fa-long-arrow-right {
+	margin-right: 5px;
+}
